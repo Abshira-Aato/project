@@ -470,6 +470,39 @@ padding: 2px;
 
 
 
+@media screen and (max-width: 400px) {
+    .link{
+        display: none;
+    } 
+
+    .but{
+        display: block;
+        margin-left: -6%;
+        font-size: 30px;
+        margin-top: -23px;
+        margin-top: 3%;
+        margin-left: 10%;
+
+    }
+.header{
+    display: flex;
+    display: flex;
+    flex-direction: column;
+padding: 0;
+
+}
+
+.link ul{
+    background: rgba(255, 255, 255, 0.1);
+    display: block;
+
+    
+}
+.link.active{
+    display: block;
+}
+
+}
 @media screen and (max-width: 600px) {
     .link{
         display: none;
